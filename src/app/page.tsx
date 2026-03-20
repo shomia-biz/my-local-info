@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import Link from 'next/link';
 
 // 나중에 진짜 외부(API)에서 가져올 때를 위해 흉내낸 함수입니다.
 // 지금은 컴퓨터 안에 있는 가짜 데이터 파일(.json)을 읽어옵니다.
@@ -51,9 +52,9 @@ export default async function Home() {
                   <p><strong className="text-blue-900 font-semibold mr-1">🧑‍🤝‍🧑 대상:</strong> {item.target}</p>
                 </div>
                 
-                <a href={item.url} className="mt-4 block text-center bg-white border border-blue-200 text-blue-600 font-semibold py-2.5 rounded-xl hover:bg-blue-50 hover:border-blue-300 transition-colors">
+                <Link href={item.url} className="mt-4 block text-center bg-white border border-blue-200 text-blue-600 font-semibold py-2.5 rounded-xl hover:bg-blue-50 hover:border-blue-300 transition-colors">
                   자세히 보기
-                </a>
+                </Link>
               </article>
             ))}
           </div>
@@ -79,9 +80,9 @@ export default async function Home() {
                   <p><strong className="text-cyan-900 font-semibold mr-1">📍 신청방법:</strong> {item.location}</p>
                 </div>
                 
-                <a href={item.url} className="mt-4 block text-center bg-white border border-cyan-200 text-cyan-700 font-semibold py-2.5 rounded-xl hover:bg-cyan-50 hover:border-cyan-300 transition-colors">
+                <Link href={item.url} className="mt-4 block text-center bg-white border border-cyan-200 text-cyan-700 font-semibold py-2.5 rounded-xl hover:bg-cyan-50 hover:border-cyan-300 transition-colors">
                   신청하기 알아보기
-                </a>
+                </Link>
               </article>
             ))}
           </div>
