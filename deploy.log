@@ -1,0 +1,16 @@
+
+ ?낉툘 wrangler 4.75.0 (update available 4.80.0)
+?????????????????????????????????????????????
+??[WARNING] Warning: Your working directory is a git repo and has uncommitted changes
+
+  To silence this warning, pass in --commit-dirty=true
+
+
+Uploading... (23/71)
+Uploading... (39/71)
+Uploading... (55/71)
+Uploading... (71/71)
+??Success! Uploaded 48 files (23 already uploaded) (2.09 sec)
+
+?뙉 Deploying...
+??Deployment complete! Take a peek over at https://397619da.my-local-info-cyv.pages.dev
