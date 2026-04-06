@@ -1,0 +1,30 @@
+
+> my-local-info@0.1.0 build
+> next build
+
+??Next.js 16.1.7 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+??Compiled successfully in 2.7s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/7) ...
+  Generating static pages using 11 workers (1/7) 
+  Generating static pages using 11 workers (3/7) 
+  Generating static pages using 11 workers (5/7) 
+??Generating static pages using 11 workers (7/7) in 619.1ms
+  Finalizing page optimization ...
+
+Route (app)
+????/
+????/_not-found
+????/blog
+????/blog/[slug]
+  ??/blog/2026-04-07-children-festa
+  ??/blog/2026-04-07-cherry-blossom-festival
+
+
+?? (Static)  prerendered as static content
+?? (SSG)     prerendered as static HTML (uses generateStaticParams)
+
