@@ -19,11 +19,18 @@ export default async function Home() {
       
       {/* 1. 상단 헤더 */}
       <header className="bg-blue-600 text-white shadow-md">
-        <div className="max-w-4xl mx-auto px-4 py-6">
-          <h1 className="text-2xl md:text-3xl font-bold flex items-center">
-            성남시 생활 정보 <span className="ml-2 text-3xl">🌊</span>
-          </h1>
-          <p className="mt-2 text-blue-100 opacity-90">우리 동네의 유용한 행사와 알짜배기 혜택을 모아보세요!</p>
+        <div className="max-w-4xl mx-auto px-4 py-6 flex flex-col sm:flex-row sm:justify-between sm:items-center">
+          <div>
+            <h1 className="text-2xl md:text-3xl font-bold flex items-center">
+              성남시 생활 정보 <span className="ml-2 text-3xl">🌊</span>
+            </h1>
+            <p className="mt-2 text-blue-100 opacity-90">우리 동네의 유용한 행사와 알짜배기 혜택을 모아보세요!</p>
+          </div>
+          <nav className="mt-4 sm:mt-0">
+            <Link href="/blog" className="font-bold text-blue-100 hover:text-white transition-colors bg-blue-700/50 px-4 py-2 rounded-lg">
+              블로그 📝
+            </Link>
+          </nav>
         </div>
       </header>
 
@@ -52,7 +59,7 @@ export default async function Home() {
                   <p><strong className="text-blue-900 font-semibold mr-1">🧑‍🤝‍🧑 대상:</strong> {item.target}</p>
                 </div>
                 
-                <Link href={item.url} className="mt-4 block text-center bg-white border border-blue-200 text-blue-600 font-semibold py-2.5 rounded-xl hover:bg-blue-50 hover:border-blue-300 transition-colors">
+                <Link href="/blog" className="mt-4 block text-center bg-white border border-blue-200 text-blue-600 font-semibold py-2.5 rounded-xl hover:bg-blue-50 hover:border-blue-300 transition-colors">
                   자세히 보기
                 </Link>
               </article>
