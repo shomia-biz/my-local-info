@@ -2312,7 +2312,19 @@
       "summary": "소득과 재산이 적은 근로소득자에게 근로장려금을, 자녀가 있을 경우 자녀장려금 지급",
       "link": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=556551&bnefType=all&svcId=105100000001",
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=556551&bnefType=all&svcId=105100000001"
+    },
+    {
+      "id": 194,
+      "name": "근로·자녀장려금",
+      "category": "혜택",
+      "startDate": "2024-03-01",
+      "endDate": "상시",
+      "location": "국세청",
+      "target": "신청요건을 모두 충족하는 근로소득, 사업소득 또는 종교인소득이 있는 가구로써 신청기간 내 신청하는 경우 근로소득, 사업소득 또는 종교인소득에 따라 산정한 근로장려금과 부양자녀수에 따라 산정한 자녀장려금을 지급",
+      "summary": "소득과 재산이 적은 근로소득자에게 근로장려금을, 자녀가 있을 경우 자녀장려금 지급",
+      "link": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=556551&bnefType=all&svcId=105100000001",
+      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=556551&bnefType=all&svcId=105100000001"
     }
   ],
-  "lastUpdated": "2026. 10. 30"
+  "lastUpdated": "2026. 10. 31"
 }
